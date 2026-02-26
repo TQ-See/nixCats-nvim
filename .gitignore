@@ -1,4 +1,5 @@
-**/result
-**/repl-result-out
-/tags
-/.luarc.json
+tags
+.luarc.json
+templates/
+/result
+

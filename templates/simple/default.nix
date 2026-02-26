@@ -1,6 +1,6 @@
 {
   pkgs ? import <nixpkgs> {}
-  , nixCats ? fetchGit {
+  , nixCats ? builtins.fetchGit {
     url = "https://github.com/BirdeeHub/nixCats-nvim";
   }
   , ...
@@ -17,7 +17,6 @@
         lazygit
         lua-language-server
         stylua
-        tree-sitter
         nixd
         alejandra
       ];
@@ -36,7 +35,6 @@
         vim-startuptime
         blink-cmp
         nvim-treesitter.withAllGrammars
-        nvim-treesitter-textobjects
         lualine-nvim
         lualine-lsp-progress
         gitsigns-nvim

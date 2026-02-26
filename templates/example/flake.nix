@@ -109,7 +109,6 @@
           universal-ctags
           ripgrep
           fd
-          tree-sitter
         ];
         # these names are arbitrary.
         lint = with pkgs; [
